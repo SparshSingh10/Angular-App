@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'myAngular';
+  ngOnInit() {
+    console.log('Hello fromm ngOnInit');
+    this.title='Hello from BridgeLabz';
+  
+  }
+  
 }
+
+
+
+
