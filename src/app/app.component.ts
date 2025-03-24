@@ -6,13 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'myAngular';
+  title = 'Helloworld';
+  imageUrl = '../assets/BL_logo_square_png.png';
   ngOnInit() {
-    console.log('Hello fromm ngOnInit');
-    this.title='Hello from BridgeLabz';
-  
+    this.title = 'Hello from BridgeLabz';
+
   }
-  
+
 }
 
 
